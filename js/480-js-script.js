@@ -42,6 +42,13 @@
 
 
   // test
+	
+	 $("a").on("click",function(){
+    $('.navbar-collapse').removeClass('show');
+   
+    
+  
+    });
   
 
 
@@ -212,8 +219,8 @@
   // Aos js
   AOS.init({
    
-    once: false, 
-    mirror: true,
+    once: true, 
+//     mirror: true,
     offset: 250,
     easing: 'ease',
     duration: 800,
